@@ -1,4 +1,4 @@
-# 🔒 AWS Data Protection Lab: Encryption with KMS & Encryption CLI (IN PROGRESS)
+# 🔒 AWS Data Protection Lab: Encryption with KMS & Encryption CLI 
 
 ## Overview
 Implementation of data encryption-at-rest using AWS Key Management Service (KMS) and AWS Encryption CLI to protect sensitive files. This lab demonstrates end-to-end cryptographic operations including key creation, file encryption, and secure decryption.
@@ -46,20 +46,20 @@ Implementation of data encryption-at-rest using AWS Key Management Service (KMS)
 *Installing AWS Encryption SDK CLI using pip package manager*
 
 ### Phase 5: File Encryption Process
-![Encryption Command](screenshots/5-encryption-command.png)
+![Encryption Command](screenshots/5-plaintext-content.png)
+*Plaintext file containing sensitive data before encryption*
+
+### Phase 6: Encryption Execution  
+![Encryption Command](screenshots/6-encryption-command.png)
 *Executing encryption command with KMS key ARN and encryption context*
 
-### Phase 6: Encrypted Output
-![Ciphertext Content](screenshots/6-ciphertext-output.png)
+### Phase 7: Encrypted Output
+![Ciphertext Content](screenshots/7-ciphertext-output.png)
 *Encrypted file showing unreadable ciphertext representation*
 
-### Phase 7: Decryption Process
-![Decryption Command](screenshots/7-decryption-command.png)
-*Decrypting ciphertext back to original plaintext*
-
-### Phase 8: Successful Decryption
-![Decrypted Plaintext](screenshots/8-decrypted-output.png)
-*Verifying successful decryption with original content recovery*
+### Phase 8: Decryption & Verification
+![Decryption Result](screenshots/8-decrypted-result.png)
+*Successful decryption returning original plaintext content*
 
 ## 🔐 Security Best Practices Implemented
 - ✅ **Key Rotation:** AWS KMS supports automatic key rotation
