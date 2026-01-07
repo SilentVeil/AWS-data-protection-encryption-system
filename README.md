@@ -82,6 +82,6 @@ aws kms create-key \
 
 ## 👨‍💻 Author
 **Renaldi** | Cloud Security Specialist  
-[GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/yourprofile)
+[GitHub Profile](https://github.com/SilentVeil) | [LinkedIn](https://linkedin.com/in/renaldi-tan)
 
 *Note: This project demonstrates data protection techniques as part of AWS security hardening series.*
